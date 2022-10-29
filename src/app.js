@@ -5,11 +5,27 @@ import "./style.css";
 window.onload = function() {
   //write your code here
 
-  const numbers = ["A", "2", "3", "4", "5", "6", "7", "8"];
+  const numbers = [
+    "A",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "J",
+    "K",
+    "Q"
+  ];
   //create array for suits same as with numbers
+  const suits = ["&spades;", "&clubs;", "&hearts;", "&diams;"];
 
   let newNumber = document.querySelector(".number");
   //create new variable for top-suit
+
   //create new variable for bottom-suit
 
   function randomCard(arr) {
