@@ -5,7 +5,7 @@ import "./style.css";
 window.onload = function() {
   //write your code here
 
-  const numbers = ["A", "2", "3", "4", "5", "6"];
+  const numbers = ["A", "2", "3", "4", "5", "6", "7", "8"];
   //create array for suits same as with numbers
 
   let newNumber = document.querySelector(".number");
